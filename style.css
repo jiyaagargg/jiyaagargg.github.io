@@ -158,3 +158,54 @@ nav ul li a:hover::after {
     line-height: 60px;
     text-align: center;
 }
+
+
+
+
+#contact {
+    padding: 180px 0px;
+    background: #FFBF9B;
+
+}
+
+.contact-left {
+    flex-basis: 35%;
+    color: #4D4D4D;
+}
+
+.contact-right {
+    flex-basis: 60%;
+}
+
+.contact-left p {
+    margin-top: 30px;
+}
+
+.btn.b1 {
+    display: inline-block;
+    background: #B46060;
+    color: #FFF4E0;
+    height: 15%;
+    border-radius: 20px;
+    width: 40%;
+    text-align: center;
+    margin-top: 30px;
+    padding: 12px;
+}
+
+.contact-right form {
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
